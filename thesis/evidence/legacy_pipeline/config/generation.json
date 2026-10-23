@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "backend": "transformers-pytorch-cpu",
+  "dtype": "auto",
+  "retrieval_mode": "hybrid",
+  "retrieval_config": "config/retrieval.json",
+  "top_k": 5,
+  "max_sources_in_prompt": 2,
+  "max_input_tokens": 4096,
+  "max_new_tokens": 192,
+  "min_dense_top_score": 0.837121456861496,
+  "refusal_text": "I cannot answer from the provided context.",
+  "require_citations": true,
+  "citation_mode": "context_bundle",
+  "calibration_report": "artifacts/evidence/refusal-calibration-report.json",
+  "retrieval_config_sha256": "b05cd5d1b470fc03ca5de6bb9fb42c8c2b4528216bf1a81f2984320adfe32ec6",
+  "sparse_index_manifest_sha256": "e4f25c0a9937ed2fb6b6512260d07cd4eb2a3cf9d3aaefc9ca7dc75c814f6fb9",
+  "dense_index_report_sha256": "d871a38113fdb4cb0b553f14bda6d9a3749914984da3111dc2df5bf9bdf133a8"
+}

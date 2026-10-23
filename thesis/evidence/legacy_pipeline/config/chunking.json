@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "algorithm": "fixed_token_window",
+  "tokenizer": "cl100k_base",
+  "tiktoken_version": "0.14.0",
+  "max_tokens": 512,
+  "overlap_tokens": 64,
+  "input_documents_sha256": "68ff1363329d669ad39ffe8dfdb4c4785fcef0b90a5a27e05a86869083cc6688",
+  "include_title_in_text": false,
+  "retrievable_only": true
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "model_id": "jinaai/jina-embeddings-v2-small-en",
+  "model_revision": "44e7d1d6caec8c883c2d4b207588504d519788d0",
+  "backend": "onnxruntime-cpu",
+  "model_filename": "model-w-mean-pooling.onnx",
+  "max_model_tokens": 4096,
+  "max_batch_size": 32,
+  "attention_cell_budget": 10000000,
+  "document_template": "{text}",
+  "query_template": "{query}",
+  "normalize_embeddings": true,
+  "embedding_dtype": "float32",
+  "index_type": "IndexFlatIP",
+  "metric": "cosine_similarity",
+  "input_chunks": "data/chunks/python-official-t512-o64-v1/chunks.jsonl",
+  "output_directory": "data/indexes/python-official-t512-o64-jina-small-v1",
+  "input_chunks_sha256": "5fb6429cbf17e92f253d9f7a213301a99ddbd540cecceca1ca06f8390ef7c39c"
+}

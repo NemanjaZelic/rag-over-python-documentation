@@ -1,0 +1,22 @@
+{
+  "corpus_id": "python-official",
+  "description": "Official CPython documentation and Python Enhancement Proposals",
+  "minimum_text_bytes": 20971520,
+  "maximum_text_bytes": 52428800,
+  "sources": [
+    {
+      "source_id": "cpython-docs",
+      "repository": "https://github.com/python/cpython",
+      "commit": "7cd63cddade4c3e1de17c3443695afe1f41d8495",
+      "source_subdirectory": "Doc",
+      "allowed_extensions": [".rst", ".txt"]
+    },
+    {
+      "source_id": "python-peps",
+      "repository": "https://github.com/python/peps",
+      "commit": "24419b92ae550bf2878716f57c257cba00d3c1a1",
+      "source_subdirectory": "peps",
+      "allowed_extensions": [".rst"]
+    }
+  ]
+}

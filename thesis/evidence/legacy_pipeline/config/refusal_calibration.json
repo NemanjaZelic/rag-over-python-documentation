@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "purpose": "Development-only calibration of a provisional top-score refusal gate. These questions must not be reused in the final test set.",
+  "queries": [
+    {"id": "in-01", "answerable": true, "query": "How do I create a Python virtual environment?"},
+    {"id": "in-02", "answerable": true, "query": "What indentation does PEP 8 recommend?"},
+    {"id": "in-03", "answerable": true, "query": "How does Python's context manager protocol work?"},
+    {"id": "in-04", "answerable": true, "query": "What is the purpose of the global interpreter lock in CPython?"},
+    {"id": "in-05", "answerable": true, "query": "How can a frozen Python dataclass be created?"},
+    {"id": "in-06", "answerable": true, "query": "What does asyncio.run do?"},
+    {"id": "in-07", "answerable": true, "query": "Are Python dictionaries insertion ordered?"},
+    {"id": "in-08", "answerable": true, "query": "How do I open a text file with UTF-8 encoding in Python?"},
+    {"id": "in-09", "answerable": true, "query": "What is structural pattern matching in Python?"},
+    {"id": "in-10", "answerable": true, "query": "How do pathlib Path objects join path components?"},
+    {"id": "out-01", "answerable": false, "query": "What is the capital of France?"},
+    {"id": "out-02", "answerable": false, "query": "How do I bake sourdough bread?"},
+    {"id": "out-03", "answerable": false, "query": "Who won the 2026 football World Cup?"},
+    {"id": "out-04", "answerable": false, "query": "How does photosynthesis convert light into chemical energy?"},
+    {"id": "out-05", "answerable": false, "query": "What is the average distance between Earth and Mars?"},
+    {"id": "out-06", "answerable": false, "query": "How is personal income tax calculated in Germany?"},
+    {"id": "out-07", "answerable": false, "query": "Which film won the Academy Award for Best Picture in 2025?"},
+    {"id": "out-08", "answerable": false, "query": "How does Java's garbage collector choose a collection algorithm?"},
+    {"id": "out-09", "answerable": false, "query": "How do I configure a systemd service on Linux?"},
+    {"id": "out-10", "answerable": false, "query": "What temperature should a chocolate cake be baked at?"}
+  ]
+}

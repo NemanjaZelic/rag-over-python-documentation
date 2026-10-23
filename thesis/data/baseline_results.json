@@ -1,0 +1,192 @@
+{
+  "questions": 20,
+  "answerable": 16,
+  "metrics": {
+    "dense": {
+      "recall@1": 0.4375,
+      "recall@5": 0.9375,
+      "mrr": 0.6493055555555556
+    },
+    "bm25": {
+      "recall@1": 0.5,
+      "recall@5": 0.6875,
+      "mrr": 0.6023685515873016
+    },
+    "hybrid": {
+      "recall@1": 0.5,
+      "recall@5": 0.9375,
+      "mrr": 0.6666666666666666
+    }
+  },
+  "answerability_gate_accuracy": 1.0,
+  "details": [
+    {
+      "id": "q01",
+      "answerable": true,
+      "dense_top_score": 0.8395153284072876,
+      "predicted_answerable": true,
+      "dense_rank": 4,
+      "bm25_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q02",
+      "answerable": true,
+      "dense_top_score": 0.8746573328971863,
+      "predicted_answerable": true,
+      "dense_rank": 18,
+      "bm25_rank": 9,
+      "hybrid_rank": 20
+    },
+    {
+      "id": "q03",
+      "answerable": true,
+      "dense_top_score": 0.8944385051727295,
+      "predicted_answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q04",
+      "answerable": true,
+      "dense_top_score": 0.8446304798126221,
+      "predicted_answerable": true,
+      "dense_rank": 2,
+      "bm25_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q05",
+      "answerable": true,
+      "dense_top_score": 0.8650310635566711,
+      "predicted_answerable": true,
+      "dense_rank": 2,
+      "bm25_rank": 2,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q06",
+      "answerable": true,
+      "dense_top_score": 0.914475679397583,
+      "predicted_answerable": true,
+      "dense_rank": 2,
+      "bm25_rank": 6,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "q07",
+      "answerable": true,
+      "dense_top_score": 0.866974413394928,
+      "predicted_answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 4,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "q08",
+      "answerable": true,
+      "dense_top_score": 0.8866336345672607,
+      "predicted_answerable": true,
+      "dense_rank": 2,
+      "bm25_rank": 16,
+      "hybrid_rank": 4
+    },
+    {
+      "id": "q09",
+      "answerable": true,
+      "dense_top_score": 0.8694344758987427,
+      "predicted_answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q10",
+      "answerable": true,
+      "dense_top_score": 0.8581114411354065,
+      "predicted_answerable": true,
+      "dense_rank": 3,
+      "bm25_rank": 1,
+      "hybrid_rank": 3
+    },
+    {
+      "id": "q11",
+      "answerable": true,
+      "dense_top_score": 0.8613221645355225,
+      "predicted_answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q12",
+      "answerable": true,
+      "dense_top_score": 0.857736349105835,
+      "predicted_answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q13",
+      "answerable": true,
+      "dense_top_score": 0.8612927794456482,
+      "predicted_answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q14",
+      "answerable": true,
+      "dense_top_score": 0.8927792310714722,
+      "predicted_answerable": true,
+      "dense_rank": 1,
+      "bm25_rank": 14,
+      "hybrid_rank": 5
+    },
+    {
+      "id": "q15",
+      "answerable": true,
+      "dense_top_score": 0.8945271968841553,
+      "predicted_answerable": true,
+      "dense_rank": 4,
+      "bm25_rank": 3,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "q16",
+      "answerable": true,
+      "dense_top_score": 0.8707618117332458,
+      "predicted_answerable": true,
+      "dense_rank": 2,
+      "bm25_rank": 7,
+      "hybrid_rank": 3
+    },
+    {
+      "id": "q17",
+      "answerable": false,
+      "dense_top_score": 0.7541400790214539,
+      "predicted_answerable": false
+    },
+    {
+      "id": "q18",
+      "answerable": false,
+      "dense_top_score": 0.770537793636322,
+      "predicted_answerable": false
+    },
+    {
+      "id": "q19",
+      "answerable": false,
+      "dense_top_score": 0.7801259756088257,
+      "predicted_answerable": false
+    },
+    {
+      "id": "q20",
+      "answerable": false,
+      "dense_top_score": 0.746519148349762,
+      "predicted_answerable": false
+    }
+  ]
+}

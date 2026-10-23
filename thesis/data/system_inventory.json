@@ -1,0 +1,76 @@
+{
+  "captured_at": "2026-09-12",
+  "project": "/Users/nemanjazelic/Projects/RAG",
+  "environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.14.3"
+  },
+  "packages": {
+    "docutils": "0.23",
+    "faiss": "1.15.0",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3",
+    "onnxruntime": "1.24.4",
+    "tiktoken": "0.14.0",
+    "torch": "2.14.0",
+    "transformers": "4.57.6"
+  },
+  "corpus": {
+    "files": 1316,
+    "raw_bytes": 27838432,
+    "sources": [
+      {
+        "id": "cpython-docs",
+        "repository": "https://github.com/python/cpython",
+        "commit": "7cd63cddade4c3e1de17c3443695afe1f41d8495",
+        "subdirectory": "Doc"
+      },
+      {
+        "id": "python-peps",
+        "repository": "https://github.com/python/peps",
+        "commit": "24419b92ae550bf2878716f57c257cba00d3c1a1",
+        "subdirectory": "peps"
+      }
+    ]
+  },
+  "baseline": {
+    "chunking": "fixed_token_window",
+    "max_tokens": 512,
+    "overlap_tokens": 64,
+    "tokenizer": "cl100k_base",
+    "chunks": 13940
+  },
+  "experiment": {
+    "parser": "Docutils publish_doctree",
+    "chunking": "section-aware block grouping with token fallback for oversized blocks",
+    "configurations": [[256, 32], [512, 64], [768, 96]],
+    "embedding_context": "document title and section path prepended only for embedding"
+  },
+  "embedding": {
+    "model": "jinaai/jina-embeddings-v2-small-en",
+    "revision": "44e7d1d6caec8c883c2d4b207588504d519788d0",
+    "runtime": "ONNX Runtime",
+    "dimensions": 512,
+    "normalization": "L2"
+  },
+  "retrieval": {
+    "dense": "FAISS IndexFlatIP, exact search",
+    "sparse": "SQLite FTS5 BM25 with Porter and Unicode61 tokenization",
+    "fusion": "Reciprocal Rank Fusion",
+    "rrf_k": 60,
+    "candidate_count_per_retriever": 60
+  },
+  "generation": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "context_chunks": 2,
+    "max_new_tokens": 192,
+    "refusal_threshold": 0.837121456861496
+  },
+  "golden_set": {
+    "questions": 20,
+    "answerable": 16,
+    "unanswerable": 4,
+    "relevance_level": "document"
+  }
+}

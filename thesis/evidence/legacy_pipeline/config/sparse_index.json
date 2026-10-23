@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "algorithm": "sqlite_fts5_bm25",
+  "tokenizer": "porter unicode61 remove_diacritics 2",
+  "input_chunks": "data/chunks/python-official-t512-o64-v1/chunks.jsonl",
+  "input_chunks_sha256": "5fb6429cbf17e92f253d9f7a213301a99ddbd540cecceca1ca06f8390ef7c39c",
+  "output_directory": "data/indexes/python-official-t512-o64-bm25-v1",
+  "column_weights": {
+    "text": 1.0,
+    "title": 2.0,
+    "document_id": 1.5,
+    "section_paths": 1.2
+  }
+}

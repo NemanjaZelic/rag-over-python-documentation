@@ -1,0 +1,13 @@
+configuration,parser,max_tokens,overlap,method,chunks,index_bytes,recall_at_1,recall_at_5,mrr,p50_ms,p95_ms,initial_build_span_seconds
+baseline,custom-normalized,512,64,dense,13940,,0.4375,0.9375,0.649306,,,
+baseline,custom-normalized,512,64,bm25,13940,,0.5000,0.6875,0.602369,,,
+baseline,custom-normalized,512,64,hybrid,13940,,0.5000,0.9375,0.666667,,,
+docutils-256,docutils-structural,256,32,dense,36165,74065965,0.6875,0.8750,0.756324,1.5522,3.4510,662.8718
+docutils-256,docutils-structural,256,32,bm25,36165,74065965,0.3750,0.8750,0.585133,46.1847,60.0431,662.8718
+docutils-256,docutils-structural,256,32,hybrid,36165,74065965,0.8125,0.9375,0.864183,48.8608,64.5920,662.8718
+docutils-512,docutils-structural,512,64,dense,25103,51410989,0.6875,0.9375,0.789063,1.1602,1.3587,811.5730
+docutils-512,docutils-structural,512,64,bm25,25103,51410989,0.3750,0.8125,0.552337,40.7382,53.3156,811.5730
+docutils-512,docutils-structural,512,64,hybrid,25103,51410989,0.7500,0.8750,0.807292,42.8663,57.6822,811.5730
+docutils-768,docutils-structural,768,96,dense,22371,45815853,0.6875,0.9375,0.773512,1.0111,1.0784,687.1738
+docutils-768,docutils-structural,768,96,bm25,22371,45815853,0.4375,0.7500,0.583117,38.0890,49.9291,687.1738
+docutils-768,docutils-structural,768,96,hybrid,22371,45815853,0.7500,0.8750,0.805655,39.7214,52.3773,687.1738

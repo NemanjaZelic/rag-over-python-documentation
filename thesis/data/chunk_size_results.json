@@ -1,0 +1,122 @@
+{
+  "256": {
+    "chunks": 36165,
+    "index_bytes": 74065965,
+    "metrics": {
+      "dense": {
+        "recall@1": 0.6875,
+        "recall@5": 0.875,
+        "mrr": 0.7563244047619048
+      },
+      "bm25": {
+        "recall@1": 0.375,
+        "recall@5": 0.875,
+        "mrr": 0.5851325757575757
+      },
+      "hybrid": {
+        "recall@1": 0.8125,
+        "recall@5": 0.9375,
+        "mrr": 0.8641826923076923
+      }
+    },
+    "retrieval_latency_ms": {
+      "dense": {
+        "p50": 1.5522294997936115,
+        "p95": 3.4509582474129274
+      },
+      "bm25": {
+        "p50": 46.1846875041374,
+        "p95": 60.04311449214583
+      },
+      "hybrid": {
+        "p50": 48.860792005143594,
+        "p95": 64.59195875140722
+      }
+    },
+    "build_timing": {
+      "measurement": "artifact_timestamp_span",
+      "initial_artifact_span_seconds": 662.8717534542084,
+      "note": "Upper-bound wall span from the first run; may include orchestration or interruption time. Future clean builds use perf_counter."
+    }
+  },
+  "512": {
+    "chunks": 25103,
+    "index_bytes": 51410989,
+    "metrics": {
+      "dense": {
+        "recall@1": 0.6875,
+        "recall@5": 0.9375,
+        "mrr": 0.7890625
+      },
+      "bm25": {
+        "recall@1": 0.375,
+        "recall@5": 0.8125,
+        "mrr": 0.5523371848739496
+      },
+      "hybrid": {
+        "recall@1": 0.75,
+        "recall@5": 0.875,
+        "mrr": 0.8072916666666666
+      }
+    },
+    "retrieval_latency_ms": {
+      "dense": {
+        "p50": 1.1602079903241247,
+        "p95": 1.3586977547674906
+      },
+      "bm25": {
+        "p50": 40.73820800113026,
+        "p95": 53.315614502935205
+      },
+      "hybrid": {
+        "p50": 42.86631250579376,
+        "p95": 57.682208742335206
+      }
+    },
+    "build_timing": {
+      "measurement": "artifact_timestamp_span",
+      "initial_artifact_span_seconds": 811.5729837417603,
+      "note": "Upper-bound wall span from the first run; may include orchestration or interruption time. Future clean builds use perf_counter."
+    }
+  },
+  "768": {
+    "chunks": 22371,
+    "index_bytes": 45815853,
+    "metrics": {
+      "dense": {
+        "recall@1": 0.6875,
+        "recall@5": 0.9375,
+        "mrr": 0.7735119047619048
+      },
+      "bm25": {
+        "recall@1": 0.4375,
+        "recall@5": 0.75,
+        "mrr": 0.5831173195084486
+      },
+      "hybrid": {
+        "recall@1": 0.75,
+        "recall@5": 0.875,
+        "mrr": 0.8056547619047619
+      }
+    },
+    "retrieval_latency_ms": {
+      "dense": {
+        "p50": 1.0111040028277785,
+        "p95": 1.0784482583403587
+      },
+      "bm25": {
+        "p50": 38.08895849942928,
+        "p95": 49.92906275219866
+      },
+      "hybrid": {
+        "p50": 39.7214164986508,
+        "p95": 52.377343497937545
+      }
+    },
+    "build_timing": {
+      "measurement": "artifact_timestamp_span",
+      "initial_artifact_span_seconds": 687.1738295555115,
+      "note": "Upper-bound wall span from the first run; may include orchestration or interruption time. Future clean builds use perf_counter."
+    }
+  }
+}
